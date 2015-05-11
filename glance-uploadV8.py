@@ -74,8 +74,8 @@ class uploadApp(Frame):
       sys.exit()
     # 
     # Forcing login to both Keystone and Nova end points, I need both
-    nvtoken = nvclient.Client(auth_url='http://api-trial2.client.metacloud.net:5000/v2.0', username='trial-admin', api_key='MetacloudSE1', project_id='Trial2-Admin')
-    kstoken = ksclient.Client(username='trial-admin', password='MetacloudSE1',tenant_name='Trial2-Admin', auth_url='http://api-trial2.client.metacloud.net:5000/v2.0')
+    nvtoken = nvclient.Client(auth_url='http://api-trial2.client.metacloud.net:5000/v2.0', username='trial-admin', api_key='*******', project_id='Trial2-Admin')
+    kstoken = ksclient.Client(username='trial-admin', password='*********',tenant_name='Trial2-Admin', auth_url='http://api-trial2.client.metacloud.net:5000/v2.0')
     
     # setup a trace on self.namevar to make sure we can validate a name is entered
 
