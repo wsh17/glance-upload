@@ -6,7 +6,8 @@ Bill Harper from Metacloud
 # Inspiration for this utility
 This utility was inspired by the need to learn the openstack API/Python bindings as well as 
 have a more reliable and faster way to import images into OpenStack.  This code basically maps
-the small guest OS into memory as as an object, then calls openstack image create to imgest it
+the small guest OS into memory as as an object, then calls openstack image create to ingest the image into
+Glance.  Its faster than horizon, and not timed it against the CLI but I bet its faster.
 # Authenication
 this utility leverages the openstack rc files for flexability of talking to different cloud so first
 run you "tenant name-openrc.sh" to authencate
