@@ -1,8 +1,8 @@
 # glance-uploadV9R3 for OpenStack
-Glance upload utility written in Python using TK for its GUI
+Glance upload utility written in Python using TK for its GUI or UI (this was old stuff)
 this utility will upload images (guest OS) to an openstack cloud using the python CLI libraries
 # Author
-Bill Harper from Metacloud
+Bill Harper from Metacloud a Managed Openstack Company
 # Inspiration for this utility
 This utility was inspired by the need to learn the openstack API/Python bindings as well as 
 have a more reliable and faster way to import images into OpenStack.  This code basically maps
